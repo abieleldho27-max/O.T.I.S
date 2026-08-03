@@ -38,4 +38,7 @@ The ESP32 will send the prompt as a request to Ollama's REST API through WiFi, w
 | 0V5640 camera with heatsinks  | 1 | $12.99  | for cooling  | pending | [URL](https://www.seeedstudio.com/OV5640-Camera-for-XIAO-ESP32S3-Sense-With-Heat-Sink-p-5739.html)  |
 | M2.5 x 6 mm screws | 4  | pending | buy in person  | pending  | N/A |
 
-
+## Status
+I am currently planning and creating a design for this project so I can apply for funding through the Stardance Challenge by Hack Club.
+## Author 
+Abiel Eldho
