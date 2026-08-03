@@ -1,4 +1,4 @@
-#O.T.I.S (Object Tracking Intelligent System) Robot
+# O.T.I.S (Object Tracking Intelligent System) Robot
 
 
 ## Overview
