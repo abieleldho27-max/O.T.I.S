@@ -12,7 +12,7 @@ One 5v lipo battery(at least 2500 mA)
 
 
 ## Architecture Workflow
-The ESP32 will send the prompt as a request to Ollama's REST API through WiFi, which I will utilize to install and run local AI models on my PC. Then I can receive the response and print it onto the LCD.
+The ESP32 will create a web server that will allow you to control the robot remotely. This will be done through Wifi. Then, I will use Ollama and Open Web UI to run a local AI model on my PC. I will create a custom MCP server that will allow the AI model to interact with the web server using tools. 
 
 ## Features
 - AI features like a chatbot that can answer questions.
