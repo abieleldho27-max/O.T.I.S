@@ -12,7 +12,7 @@ One 5v lipo battery(at least 2500 mA)
 
 
 ## Architecture Workflow
-The ESP32 will create a web server that will allow you to control the robot remotely. This will be done through Wifi. Then, I will use Ollama and Open Web UI to run a local AI model on my PC. I will create a custom MCP server that will allow the AI model to interact with the web server using tools. 
+The prompt and camera feed will be sent to a web server created by the ESP32, which a Python script can access via an API. This prompt is then fed into the AI, which will use the data to generate an answer. I will also create tools in the Python script that the AI can use to turn the servos on and off via an API if it decides it needs to move. This data, along with the response from the AI, will be sent back to the web server, which the ESP32 will display on the LCD. 
 
 ## Features
 - AI features like a chatbot that can answer questions.
@@ -23,6 +23,11 @@ The ESP32 will create a web server that will allow you to control the robot remo
 ## Tools Used
 - Fusion 360
 - KiCad
+- Ollama
+- Open Web UI
+- C++
+- Visual Studio Code
+- Python
 
 
 ## BOM
