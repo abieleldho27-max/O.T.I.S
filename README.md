@@ -42,6 +42,14 @@ The prompt and camera feed will be sent to a web server created by the ESP32, wh
 | 0V5640 camera with heatsinks  | 1 | $22.89  | for cooling  | bought | [URL](https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/114993115/21277047)  |
 | M2.5 x 6 mm screws | 4  | $2.00 | buy in person  | pending  | N/A |
 
+## Photos
+<img width="1233" height="929" alt="OTIS final assembly pic" src="https://github.com/user-attachments/assets/ecbb1aef-878c-4dae-a941-208d14af223c" />
+<img width="1586" height="1121" alt="OTIS devlog screenshot 3" src="https://github.com/user-attachments/assets/7b3f2d17-7a88-42ca-886e-eccb19566a2a" />
+<img width="1754" height="737" alt="Screenshot 2026-08-04 191854" src="https://github.com/user-attachments/assets/9b0d4c6f-b86b-4e72-aaf2-417bfd7d45d5" />
+
+
+
+
 Total Cost = $110 - $120
 ## Status
 I have completed the design and have submitted the project for funding.
