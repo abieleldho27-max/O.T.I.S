@@ -12,11 +12,11 @@ One 5v lipo battery(at least 2500 mA)
 
 
 ## Architecture Workflow
-The prompt and camera feed will be sent to a web server created by the ESP32, which a Python script can access via an API. This prompt is then fed into the AI, which will use the data to generate an answer. I will also create tools in the Python script as an MCP that the AI can use to turn the servos on and off by sending a POST request. This data, along with the response, will be sent back to the web server, which the ESP32 will interpret to display text on the LCD and/or move the servos. 
+The Serial Monitor uses ```Serial.readString()``` with ``` while (!Serial.available()){}``` to wait for input from the user. Then, when an input is received, a HTTP POST request is sent to a Python script as JSON containing all the necessary data, such as the prompt and model. This data, once received by the Python script, is sent to Ollama's REST API to a model that is hosted locally on my device through the requests library. Once the data is sent, the returned JSON is deserialized with the Python json library through ```json.loads()```, where just the response is returned to the ESP32 to be printed to the Serial Monitor.
 
 ## Features
 - AI features like a chatbot that can answer questions.
-- Remote controllable mode
+- Remote-controlled mode
 - Tank treads
 - Animated eyes with an LCD screen that displays answers
 
